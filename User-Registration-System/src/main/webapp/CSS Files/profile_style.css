@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+  @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins&family=Roboto&display=swap');
+
+  * {
+      padding: 0;
+      margin: 0%;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+      height: 100vh;
+      /* background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%); */
+      background-image: linear-gradient(to left bottom, #3681f2, #00b0ff, #00d2e1, #00ea9c, #c7f65f);
+  }
+
+  main {
+      height: 80%;
+      /* width: 100%; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  header {
+      width: 99%;
+      height: 10vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+  }
+
+
+  header > h1 > a{
+        color: #0058dc;
+        text-decoration: none;
+        text-transform: uppercase;
+  }
+  header ul {
+      display: flex;
+      justify-content: space-around;
+      /* width: 15vw; */
+      gap: 15px;
+  }
+
+  header ul li {
+      list-style: none;
+  }
+
+  header ul li a {
+      text-decoration: none;
+      font-size: 1.3rem;
+      color: #87ff17;
+  }
+
+  header ul li a:hover {
+      text-shadow: 0px 0px 3px #87ff17;
+      text-decoration: underline;
+  }
+
+  .form-container {
+      width: 30vw;
+      /* border: 2px solid black; */
+      padding: 8px;
+      text-align: center;
+      background-color: #c6f65f8f;
+      border-radius: 30px;
+      cursor: pointer;
+  }
+
+form{
+	width: 90%;
+	margin:auto;
+	text-align: left;
+}
+
+  .form-container:hover{
+    box-shadow: 0px 0px 20px whitesmoke;
+  }
+
+  .form-container > h2{
+    text-decoration: underline;
+    font-size: 2rem;
+  }
+
+  .form-container>form,
+  button {
+      font-size: 1rem;
+  }
+
+  .form-container>form>label {
+      font-weight: bold;
+      font-size: 1.2rem;
+  }
+
+  .form-container>form>input {
+      width: 90%;
+      height: 1.5rem;
+      border: none;
+      border-radius: 6px;
+      padding:3px 10px;
+      
+  }
+
+  .form-container>form>button {
+      display: block;
+      width: 40%;
+      background-color: #695acd9e;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      padding: 5px;
+      margin: auto;
+  }

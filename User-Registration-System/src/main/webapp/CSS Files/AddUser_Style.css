@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins&family=Roboto&display=swap');
+
+* {
+	padding: 0;
+	margin: 0%;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	height: 100vh;
+	background: hsla(171, 87%, 67%, 1);
+
+	background: linear-gradient(270deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+
+	background: -moz-linear-gradient(270deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+
+	background: -webkit-linear-gradient(270deg, hsla(171, 87%, 67%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#61F4DE", endColorstr="#6E78FF", GradientType=1);
+}
+
+main {
+	height: 80%;
+	/* width: 100%; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	width: 99%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 3px solid peru;
+	padding: 5px;
+}
+
+
+header>h1>a {
+	color: #0058dc;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header ul {
+	display: flex;
+	justify-content: space-around;
+	/* width: 15vw; */
+	gap: 15px;
+}
+
+header ul li {
+	list-style: none;
+}
+
+header ul li a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: dodgerblue;
+}
+
+header ul li a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.container {
+	width: 30vw;
+	border: 2px solid black;
+	padding: 20px;
+	text-align: center;
+	border-radius: 30px;
+	cursor: pointer;
+
+	background: hsla(214, 92%, 47%, 1);
+
+	background: linear-gradient(90deg, hsla(214, 92%, 47%, 0.5) 0%, hsla(231, 85%, 24%, 0.5) 100%);
+
+	background: -moz-linear-gradient(90deg, hsla(214, 92%, 47%, 0.5) 0%, hsla(231, 85%, 24%, 0.5) 100%);
+
+	background: -webkit-linear-gradient(90deg, hsla(214, 92%, 47%, 0.5) 0%, hsla(231, 85%, 24%, 0.5) 100%);
+
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0968E5", endColorstr="#091970", GradientType=1);
+
+}
+
+.container:hover {
+	box-shadow: 0px 0px 10px greenyellow;
+}
+
+.container:hover h1{
+	color: aqua;	
+}
+
+.container:hover button{
+	box-shadow: 0px 0px 8px aqua;
+}
+
+.container>h1 {
+	text-decoration: underline;
+	font-size: 2rem;
+}
+
+.container>form,
+button {
+	font-size: 1rem;
+}
+
+.container form>label {
+	font-weight: bold;
+}
+
+.container form>input:not(#male, #female) {
+	width: 60%;
+	height: 1.5rem;
+	border: none;
+	border-radius: 6px;
+	padding: 3px 10px;
+
+}
+
+.container form>button {
+	width: 40%;
+	background-color: greenyellow;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	font-weight: 600;
+	padding: 5px;
+}
