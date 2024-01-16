@@ -1,4 +1,4 @@
-# User_Management_Using_MySQL
+# User_Management_Using_Servlets
 An User Management System Using Java Servlets and MySQl. It can store user's details on a database and admins can access, modify and delete them.
 
 ## Components Used
